@@ -8,7 +8,7 @@
 2. Fill in:
    - **Provider ID:** `cheapaimodel`
    - **Request format:** OpenAI
-   - **Proxy URL:** `https://api.cheapaimodel.com/v1`
+   - **Proxy URL:** `https://api.cheapaimodel.ai/v1`
    - **API Key:** your CheapAIModel key
 3. Click **Fetch model list**, enable the models you want, and pick one in the chat.
 

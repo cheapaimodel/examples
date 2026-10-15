@@ -17,9 +17,9 @@ endpoints:
   custom:
     - name: "CheapAIModel"
       apiKey: "${CHEAPAIMODEL_API_KEY}"
-      baseURL: "https://api.cheapaimodel.com/v1"
+      baseURL: "https://api.cheapaimodel.ai/v1"
       models:
-        default: ["<model-id>"]
+        default: ["glm-5.3-flash"]
         fetch: true
       titleConvo: true
       titleModel: "current_model"

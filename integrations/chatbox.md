@@ -7,10 +7,10 @@
 1. Open **Settings → Model Provider** and click **Add**.
 2. Choose API type **OpenAI API compatible**, then fill in:
    - **Name:** `CheapAIModel`
-   - **API Host:** `https://api.cheapaimodel.com`
+   - **API Host:** `https://api.cheapaimodel.ai`
    - **API Path:** `/v1/chat/completions`
    - **API Key:** your CheapAIModel key
-   - **Models:** fetch the list or add `<model-id>`
+   - **Models:** fetch the list or add `glm-5.3-flash`
 3. Save and pick a CheapAIModel model in a new chat.
 
 <!-- screenshot: chatbox-provider.png -->

@@ -6,9 +6,9 @@
 
 1. Open **API Connections** (the plug icon) and set **API** to **Chat Completion**.
 2. Set **Chat Completion Source** to **Custom (OpenAI-compatible)**, then fill in:
-   - **Custom Endpoint (Base URL):** `https://api.cheapaimodel.com/v1`
+   - **Custom Endpoint (Base URL):** `https://api.cheapaimodel.ai/v1`
    - **Custom API Key:** your CheapAIModel key
-   - **Model ID:** `<model-id>` (or click to load available models)
+   - **Model ID:** `glm-5.3-flash` (or click to load available models)
 3. Click **Connect**. The status light turns green when it works.
 
 <!-- screenshot: sillytavern-connection.png -->

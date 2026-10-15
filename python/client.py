@@ -3,8 +3,8 @@ import os
 
 from openai import OpenAI
 
-BASE_URL = os.getenv("CHEAPAIMODEL_BASE_URL", "https://api.cheapaimodel.com/v1")
-MODEL = os.getenv("CHEAPAIMODEL_MODEL", "gpt-4o-mini")
+BASE_URL = os.getenv("CHEAPAIMODEL_BASE_URL", "https://api.cheapaimodel.ai/v1")
+MODEL = os.getenv("CHEAPAIMODEL_MODEL", "glm-5.3-flash")
 
 
 def get_client() -> OpenAI:

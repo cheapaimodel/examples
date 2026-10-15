@@ -7,9 +7,9 @@
 1. Open Cline in VS Code and click the **Settings** (gear) icon.
 2. Set **API Provider** to **OpenAI Compatible**.
 3. Fill in:
-   - **Base URL:** `https://api.cheapaimodel.com/v1`
+   - **Base URL:** `https://api.cheapaimodel.ai/v1`
    - **API Key:** your CheapAIModel key
-   - **Model ID:** for example `<model-id>` (see the [model list](https://github.com/cheapaimodel/docs/blob/main/models.md))
+   - **Model ID:** for example `glm-5.3-flash` (see the [model list](https://github.com/cheapaimodel/docs/blob/main/models.md))
 
 Click **Done** and start a task.
 

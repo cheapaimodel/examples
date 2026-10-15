@@ -6,7 +6,7 @@
 
 1. Go to **Admin Settings → Connections → Manage OpenAI API Connections** and click **➕ Add Connection**.
 2. Fill in:
-   - **URL:** `https://api.cheapaimodel.com/v1`
+   - **URL:** `https://api.cheapaimodel.ai/v1`
    - **API Key:** your CheapAIModel key
    - **Model IDs:** leave empty to load all models, or add the ones you want
 3. Click **Verify Connection**, save, and pick a model in a new chat.

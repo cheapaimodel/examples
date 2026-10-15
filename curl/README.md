@@ -3,11 +3,11 @@
 ## Chat completion
 
 ```bash
-curl https://api.cheapaimodel.com/v1/chat/completions \
+curl https://api.cheapaimodel.ai/v1/chat/completions \
   -H "Authorization: Bearer $CHEAPAIMODEL_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o-mini",
+    "model": "glm-5.3-flash",
     "messages": [{"role": "user", "content": "Hello!"}]
   }'
 ```
@@ -15,11 +15,11 @@ curl https://api.cheapaimodel.com/v1/chat/completions \
 ## Streaming
 
 ```bash
-curl -N https://api.cheapaimodel.com/v1/chat/completions \
+curl -N https://api.cheapaimodel.ai/v1/chat/completions \
   -H "Authorization: Bearer $CHEAPAIMODEL_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o-mini",
+    "model": "glm-5.3-flash",
     "stream": true,
     "messages": [{"role": "user", "content": "Count to 5"}]
   }'
@@ -28,6 +28,6 @@ curl -N https://api.cheapaimodel.com/v1/chat/completions \
 ## List models
 
 ```bash
-curl https://api.cheapaimodel.com/v1/models \
+curl https://api.cheapaimodel.ai/v1/models \
   -H "Authorization: Bearer $CHEAPAIMODEL_API_KEY"
 ```

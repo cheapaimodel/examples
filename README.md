@@ -6,8 +6,8 @@ Ready-to-run examples for the CheapAIModel API. Every example uses the official 
 
 ```bash
 export CHEAPAIMODEL_API_KEY="your-key"
-# optional: pick a model (default: gpt-4o-mini)
-export CHEAPAIMODEL_MODEL="gpt-4o-mini"
+# optional: pick a model (default: glm-5.3-flash)
+export CHEAPAIMODEL_MODEL="glm-5.3-flash"
 ```
 
 ## Python

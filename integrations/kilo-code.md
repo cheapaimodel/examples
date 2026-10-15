@@ -9,7 +9,7 @@
    - **Provider ID:** `cheapaimodel`
    - **Display name:** `CheapAIModel`
    - **Provider API:** OpenAI Compatible
-   - **Base URL:** `https://api.cheapaimodel.com/v1`
+   - **Base URL:** `https://api.cheapaimodel.ai/v1`
    - **API key:** your CheapAIModel key
 3. Save. Kilo Code loads the available models from `/v1/models` automatically; pick one.
 

@@ -6,7 +6,7 @@ CheapAIModel is OpenAI-compatible, so it works in any app that lets you set a cu
 
 | Setting | Value |
 | --- | --- |
-| Base URL | `https://api.cheapaimodel.com/v1` |
+| Base URL | `https://api.cheapaimodel.ai/v1` |
 | API key | your CheapAIModel key |
 | Model ID | any ID from `GET /v1/models` ([list](https://github.com/cheapaimodel/docs/blob/main/models.md)) |
 

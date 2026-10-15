@@ -15,10 +15,10 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "CheapAIModel",
       "options": {
-        "baseURL": "https://api.cheapaimodel.com/v1"
+        "baseURL": "https://api.cheapaimodel.ai/v1"
       },
       "models": {
-        "<model-id>": { "name": "<Model name>" }
+        "glm-5.3-flash": { "name": "GLM 5.3 Flash" }
       }
     }
   }

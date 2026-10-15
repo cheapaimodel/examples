@@ -17,11 +17,11 @@ export CHEAPAIMODEL_API_KEY="your-key"
   "models": {
     "providers": {
       "cheapaimodel": {
-        "baseUrl": "https://api.cheapaimodel.com/v1",
+        "baseUrl": "https://api.cheapaimodel.ai/v1",
         "apiKey": "${CHEAPAIMODEL_API_KEY}",
         "api": "openai-completions",
         "models": [
-          { "id": "<model-id>", "name": "<Model name>" }
+          { "id": "glm-5.3-flash", "name": "GLM 5.3 Flash" }
         ]
       }
     }
@@ -29,6 +29,6 @@ export CHEAPAIMODEL_API_KEY="your-key"
 }
 ```
 
-3. Restart OpenClaw and select `cheapaimodel/<model-id>` as your model.
+3. Restart OpenClaw and select `cheapaimodel/glm-5.3-flash` as your model.
 
 Reference: OpenClaw docs, `concepts/model-providers/custom-providers`.

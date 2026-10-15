@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
-export const BASE_URL = process.env.CHEAPAIMODEL_BASE_URL ?? "https://api.cheapaimodel.com/v1";
-export const MODEL = process.env.CHEAPAIMODEL_MODEL ?? "gpt-4o-mini";
+export const BASE_URL = process.env.CHEAPAIMODEL_BASE_URL ?? "https://api.cheapaimodel.ai/v1";
+export const MODEL = process.env.CHEAPAIMODEL_MODEL ?? "glm-5.3-flash";
 
 export function getClient() {
   const apiKey = process.env.CHEAPAIMODEL_API_KEY;
