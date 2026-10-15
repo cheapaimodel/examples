@@ -1,0 +1,16 @@
+{
+  "name": "cheapaimodel-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Examples for the CheapAIModel API",
+  "scripts": {
+    "chat": "node chat.mjs",
+    "stream": "node streaming.mjs",
+    "tools": "node tool_calling.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.60.0"
+  },
+  "license": "MIT"
+}

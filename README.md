@@ -1,0 +1,53 @@
+# CheapAIModel Examples
+
+Ready-to-run examples for the CheapAIModel API. Every example uses the official OpenAI SDK — only the base URL and API key change.
+
+## Setup
+
+```bash
+export CHEAPAIMODEL_API_KEY="your-key"
+# optional: pick a model (default: gpt-4o-mini)
+export CHEAPAIMODEL_MODEL="gpt-4o-mini"
+```
+
+## Python
+
+```bash
+cd python
+pip install -r requirements.txt
+python chat.py
+```
+
+| File | Shows |
+| --- | --- |
+| [chat.py](python/chat.py) | Basic chat completion |
+| [streaming.py](python/streaming.py) | Streaming tokens as they arrive |
+| [tool_calling.py](python/tool_calling.py) | Function / tool calling |
+| [multi_turn.py](python/multi_turn.py) | Simple chatbot in the terminal |
+| [langchain_chat.py](python/langchain_chat.py) | Using CheapAIModel with LangChain |
+
+## JavaScript / TypeScript
+
+```bash
+cd javascript
+npm install
+node chat.mjs
+```
+
+| File | Shows |
+| --- | --- |
+| [chat.mjs](javascript/chat.mjs) | Basic chat completion |
+| [streaming.mjs](javascript/streaming.mjs) | Streaming tokens as they arrive |
+| [tool_calling.mjs](javascript/tool_calling.mjs) | Function / tool calling |
+
+## cURL
+
+See [curl/README.md](curl/README.md).
+
+## Use with other tools
+
+Step-by-step setup guides for Cline, Kilo Code, opencode, OpenClaw, Aider, Cherry Studio, LobeHub, SillyTavern, Open WebUI, LibreChat and Chatbox: see [integrations/](integrations/README.md).
+
+## License
+
+MIT
