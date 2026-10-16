@@ -15,6 +15,8 @@ CheapAIModel is OpenAI-compatible, so it works in any app that lets you set a cu
 | Tool | Guide |
 | --- | --- |
 | Cline | [cline.md](cline.md) |
+| Codex CLI | [codex-cli.md](codex-cli.md) |
+| DeepSeek Harness (dsh) | [deepseek-harness.md](deepseek-harness.md) |
 | Kilo Code | [kilo-code.md](kilo-code.md) |
 | opencode | [opencode.md](opencode.md) |
 | OpenClaw | [openclaw.md](openclaw.md) |
